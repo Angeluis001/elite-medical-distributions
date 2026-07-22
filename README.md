@@ -30,6 +30,8 @@ npx serve .
 3. Framework preset: **Other** (static HTML)
 4. Click **Deploy**
 
+Production site: https://www.elitemedicaldistributions.com.au/
+
 ### Custom domain (after deploy)
 
 1. Vercel → Project → **Settings** → **Domains**
@@ -44,6 +46,10 @@ npx serve .
 **Important:** Do **not** delete or change **MX** records (email). Only change web **A** / **CNAME** for the site.
 
 DNS can take minutes to a few hours. Vercel will show a green check when the domain is valid.
+
+### Routes
+
+Clean URLs: `/` · `/about` · `/contact` (favicon at `/assets/favicon.svg`)
 
 ## Contact form
 
