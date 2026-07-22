@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us – Elite Medical Distributions</title>
+    <meta
+      name="description"
+      content="Contact Elite Medical Distributions. Call 1300 393 776 or send a message. Stafford Heights, QLD."
+    />
+    <link rel="canonical" href="https://elitemedicaldistributions.com.au/contact" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <p class="topbar-tagline">Empowering your practice with premium medical supplies</p>
+        <div class="topbar-contact">
+          <a href="tel:1300393776">Call 1300 393 776</a>
+          <a href="mailto:info@elitemedicaldistributions.com.au">info@elitemedicaldistributions.com.au</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header is-sticky">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img class="logo-img" src="assets/emd-logo.png" width="280" height="80" alt="Elite Medical Distributions" /></a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a class="btn btn-primary" href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <p>Reach out anytime — we’re here to help your practice</p>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-cards">
+              <div class="contact-card">
+                <div class="icon" aria-hidden="true">☎</div>
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:1300393776">1300 393 776</a>
+                  <p class="hint">Reach out to us, anytime!</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="icon" aria-hidden="true">✉</div>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:info@elitemedicaldistributions.com.au"
+                    >info@elitemedicaldistributions.com.au</a
+                  >
+                  <p class="hint">Have any queries? Send us an email</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="icon" aria-hidden="true">⌖</div>
+                <div>
+                  <h3>Address</h3>
+                  <p>32-34 Minimine St</p>
+                  <p class="hint">Stafford Heights, 4053 QLD</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="icon" aria-hidden="true">◷</div>
+                <div>
+                  <h3>Business Hours</h3>
+                  <p>Monday – Friday</p>
+                  <p class="hint">8 am to 5 pm</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-card">
+              <h2>Send us a message</h2>
+              <p>Fill in the form and our team will get back to you shortly.</p>
+
+              <!--
+                Production: set action to your Formspree / Web3Forms endpoint, e.g.
+                action="https://formspree.io/f/xxxxxx"
+              -->
+              <form id="contact-form" action="#" method="POST" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" name="firstName" type="text" autocomplete="given-name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" name="lastName" type="text" autocomplete="family-name" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email <span class="req">*</span></label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="inquiry">Inquiry</label>
+                  <select id="inquiry" name="inquiry">
+                    <option value="">Please Select</option>
+                    <option value="Consumables">Consumables</option>
+                    <option value="Pharmaceuticals">Pharmaceuticals</option>
+                    <option value="Shipping">Shipping</option>
+                    <option value="Account Query">Account Query</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="address">Your Address</label>
+                  <input id="address" name="address" type="text" autocomplete="street-address" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="state">State</label>
+                    <input id="state" name="state" type="text" autocomplete="address-level1" />
+                  </div>
+                  <div class="form-group">
+                    <label for="postcode">Postcode</label>
+                    <input id="postcode" name="postcode" type="text" autocomplete="postal-code" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message <span class="req">*</span></label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-lg" type="submit">Send message</button>
+                <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="trust-grid">
+            <div>
+              <h2>Trusted buying experience</h2>
+              <p>
+                At Elite Medical Distributions, we are committed to providing a wide range of
+                pharmaceutical supplies and unparalleled customer service to help medical
+                professionals deliver the best possible care to their patients. Our goal is to
+                support your practice and help you achieve optimal outcomes for your patients.
+              </p>
+              <ul class="check-list">
+                <li>High-quality medical supplies that meet regulatory standards</li>
+                <li>Competitive pricing and bulk ordering options</li>
+                <li>Fast and reliable shipping and delivery</li>
+                <li>Exceptional customer service and support</li>
+                <li>
+                  Expert industry knowledge and insights to help you make informed decisions about
+                  your practice
+                </li>
+              </ul>
+            </div>
+            <aside class="trust-panel">
+              <h3>Prefer to call?</h3>
+              <p>We’re available Monday to Friday, 8 am – 5 pm.</p>
+              <a class="phone" href="tel:1300393776">1300 393 776</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container">
+          <h2>Call 1300 393 776</h2>
+          <p>Speak with Elite Medical Distributions today</p>
+          <a class="phone-lg" href="tel:1300393776">1300 393 776</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="index.html"><img class="logo-img" src="assets/emd-logo.png" width="280" height="80" alt="Elite Medical Distributions" /></a>
+            <p>
+              Empowering your practice with premium medical supplies. Quality products,
+              competitive pricing, and Australia-wide delivery for clinics.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:1300393776">1300 393 776</a></li>
+              <li>
+                <a href="mailto:info@elitemedicaldistributions.com.au"
+                  >info@elitemedicaldistributions.com.au</a
+                >
+              </li>
+              <li>32-34 Minimine St<br />Stafford Heights, 4053 QLD</li>
+              <li>Mon–Fri: 8 am to 5 pm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Copyright 2012 – 2026 | Elite Medical Distributions | All Rights Reserved</span>
+          <span>elitemedicaldistributions.com.au</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
