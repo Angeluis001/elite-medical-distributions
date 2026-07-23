@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register for an Account – Elite Medical Distributions</title>
+    <meta
+      name="description"
+      content="Apply for a trade account with Elite Medical Distributions to order specialized pharmaceutical products for your clinic."
+    />
+    <link rel="canonical" href="https://www.elitemedicaldistributions.com.au/register" />
+    <meta name="theme-color" content="#344E41" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/emd-logo.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <p class="topbar-tagline">Empowering your practice with specialized pharmaceutical products</p>
+        <div class="topbar-contact">
+          <a href="tel:1300393776">1300 393 776</a>
+          <a href="mailto:info@elitemedicaldistributions.com.au">info@elitemedicaldistributions.com.au</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header is-sticky">
+      <div class="container header-inner">
+        <a class="logo" href="/">
+          <img class="logo-img" src="/assets/emd-logo.png" width="280" height="80" alt="Elite Medical Distributions" />
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" aria-label="Main">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <div class="nav-actions">
+            <a class="btn btn-login" data-b2b-login href="https://portal.elitemedicaldistributions.com.au">Login</a>
+            <a class="btn btn-register" href="/register">Register</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumb">
+            <a href="/">Home</a>
+            <span aria-hidden="true">/</span>
+            <span>Register</span>
+          </div>
+          <h1>Account application</h1>
+          <p>Apply for a trade account to access our B2B portal and order specialized pharmaceutical products</p>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="contact-grid">
+            <div>
+              <div class="section-header" style="text-align: left; margin: 0 0 1.5rem">
+                <span class="eyebrow">Trade accounts</span>
+                <h2 style="text-align: left">Why register?</h2>
+                <p style="text-align: left">
+                  Approved clinic and practice accounts can log in to our B2B portal to browse and
+                  order from our range of 500+ specialized pharmaceutical products.
+                </p>
+              </div>
+              <ul class="check-list">
+                <li>
+                  <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>
+                  Access the B2B ordering portal once approved
+                </li>
+                <li>
+                  <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>
+                  Competitive clinic pricing on specialized products
+                </li>
+                <li>
+                  <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>
+                  Australia-wide delivery to your practice
+                </li>
+                <li>
+                  <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>
+                  Support from our team Mon–Fri, 9 am – 5 pm
+                </li>
+              </ul>
+              <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.95rem">
+                Already approved?
+                <a data-b2b-login href="https://portal.elitemedicaldistributions.com.au"><strong>Log in to the B2B portal</strong></a>
+              </p>
+            </div>
+
+            <div class="form-card">
+              <h2>Application form</h2>
+              <p>Complete the form below. Our team will review your application and be in touch.</p>
+
+              <form id="register-form" action="#" method="POST" novalidate>
+                <div class="form-group">
+                  <label for="businessName">Business / clinic name <span class="req">*</span></label>
+                  <input id="businessName" name="businessName" type="text" required autocomplete="organization" />
+                </div>
+
+                <div class="form-group">
+                  <label for="abn">ABN</label>
+                  <input id="abn" name="abn" type="text" inputmode="numeric" autocomplete="off" />
+                </div>
+
+                <div class="form-group">
+                  <label for="contactName">Contact name <span class="req">*</span></label>
+                  <input id="contactName" name="contactName" type="text" required autocomplete="name" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email">Email <span class="req">*</span></label>
+                    <input id="email" name="email" type="email" required autocomplete="email" />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input id="phone" name="phone" type="tel" autocomplete="tel" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="accountType">Account type</label>
+                  <select id="accountType" name="accountType">
+                    <option value="">Please Select</option>
+                    <option value="Medical clinic">Medical clinic</option>
+                    <option value="Specialist practice">Specialist practice</option>
+                    <option value="Hospital / day surgery">Hospital / day surgery</option>
+                    <option value="Allied health">Allied health</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="address">Clinic / delivery address</label>
+                  <input id="address" name="address" type="text" autocomplete="street-address" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="suburb">Suburb / city</label>
+                    <input id="suburb" name="suburb" type="text" autocomplete="address-level2" />
+                  </div>
+                  <div class="form-group">
+                    <label for="state">State</label>
+                    <input id="state" name="state" type="text" autocomplete="address-level1" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="postcode">Postcode</label>
+                  <input id="postcode" name="postcode" type="text" autocomplete="postal-code" />
+                </div>
+
+                <div class="form-group">
+                  <label for="notes">Additional notes</label>
+                  <textarea id="notes" name="notes" placeholder="Tell us about your practice or product needs (optional)"></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-lg" type="submit">Submit application</button>
+                <div id="register-status" class="form-status" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="/">
+              <img class="logo-img logo-img--footer" src="/assets/emd-logo.png" width="240" height="68" alt="Elite Medical Distributions" />
+            </a>
+            <p>
+              Empowering your practice with specialized pharmaceutical products. Quality range,
+              competitive pricing, and Australia-wide delivery for clinics.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/register">Register</a></li>
+              <li><a data-b2b-login href="https://portal.elitemedicaldistributions.com.au">Login</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:1300393776">1300 393 776</a></li>
+              <li><a href="mailto:info@elitemedicaldistributions.com.au">info@elitemedicaldistributions.com.au</a></li>
+              <li>Brisbane, QLD</li>
+              <li>Mon–Fri: 9 am to 5 pm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Copyright 2012 – 2026 | Elite Medical Distributions | All Rights Reserved</span>
+          <span>elitemedicaldistributions.com.au</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
